@@ -34,7 +34,7 @@ void traverseList(Node* head){
     }
     printf("NULL");
 }
-// Hàm thêm phần tử vào đầu danh sách
+// Hàm thêm phần tử vào cuối danh sách
 Node* insertAtEnd(Node* head, int newData){
     Node* newNode = addToHead(newData);
     if (head == NULL){
@@ -68,7 +68,7 @@ int main(){
     }
     // In danh sách ban đầu
     traverseList(head);
-    // Thêm số mới vào đầu danh sách
+    // Thêm số mới vào cuối danh sách
     int newValue;
     printf(" ");
     scanf("%d", &newValue);
