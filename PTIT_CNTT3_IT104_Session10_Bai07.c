@@ -86,7 +86,7 @@ int main() {
         }
     }
     traverseList(head);
-    // Tìm phần tử
+    // Sắp xếp phần tử
     sortList(head);
     // In kết quả
     traverseList(head);
